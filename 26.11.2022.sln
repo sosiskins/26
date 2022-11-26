@@ -1,0 +1,29 @@
+﻿#include <iostream>
+#include <ctime>
+using namespace std;
+//7
+int give7() 
+	{	return 7; }
+	//2
+	int sum2(int x, int y) {
+		return x + y;
+}
+	int sum3(int x, int y, int z) {
+		int s = sum2(x, y);
+		return sum2(s, z);
+		return sum2(sum2(x, y), z);
+	}
+	int main() { 
+	}
+	void print(double a)  {
+		cout << a << endl;
+	}
+	// a , b
+	int sumAB(int a, int b) {
+		int sum = 0;
+		for (int i = a; i <= b; i++) {
+			sum = sum + i;
+		}
+		return sum;
+
+	
